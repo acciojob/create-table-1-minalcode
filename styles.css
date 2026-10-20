@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+#sampleTable {
+    border-collapse: collapse;
+    width: 350px;
+}
+
+#sampleTable td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+input[type="button"] {
+    margin-top: 10px;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #888;
+    border-radius: 4px;
+}
+
+input[type="button"]:hover {
+    background-color: #ddd;
+}
